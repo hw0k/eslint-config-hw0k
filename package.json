@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hw0k",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Personal ESLint configuration",
   "main": "index.js",
   "repository": {
