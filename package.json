@@ -7,9 +7,18 @@
     "type": "git",
     "url": "https://github.com/hw0k/eslint-config-hw0k.git"
   },
-  "author": "hw0k",
+  "author": "hw0k <hw0knam@gmail.com> (https://hw0k.me)",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "semantic-release": "semantic-release"
   },
