@@ -1,0 +1,7 @@
+.vscode/
+.github/
+
+.eslintrc
+.huskyrc
+.commitlintrc
+.releaserc

@@ -1,0 +1,9 @@
+{
+  "extends": "./javascript.js",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "quote-props": "off"
+  }
+}

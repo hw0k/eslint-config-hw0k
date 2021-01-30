@@ -1,0 +1,51 @@
+module.exports = {
+  extends: [
+    'airbnb',
+    'plugin:prettier/recommended',
+    'prettier',
+    'prettier/react',
+  ],
+  plugins: ['react', 'react-hooks', 'import', 'prettier'],
+  env: {
+    es2020: true,
+  },
+  rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        semi: true,
+        useTabs: false,
+        trailingComma: 'all',
+        arrowParen: 'always',
+      },
+    ],
+    'import/extensions': 'off',
+    'import/no-dynamic-require': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/jsx-boolean-value': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/jsx-no-bind': 'error',
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/no-unused-prop-types': 'off',
+    'react/no-unused-state': 'off',
+    'react/prop-types': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react/require-default-props': 'off',
+    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/rules-of-hooks': 'error',
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/html-has-lang': 'off',
+    'no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
+  },
+};
